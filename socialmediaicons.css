@@ -1,0 +1,30 @@
+.social-icons{
+            display: flex;
+            gap: 15px;
+}
+
+.fa-brands fa-facebook {
+    color: blue;
+}
+
+.fa-brands twitter {
+    color: light-blue;
+}
+
+.fa-brands instagram {
+    color: pink;
+}
+
+.social-icons a{
+            font-size: 25px;
+}
+
+.facebook-icon a:hover{
+            color: blue;
+}
+.twitter-icon a:hover{
+            color: lightblue;
+}
+.instagram-icon a:hover{
+            color: pink;
+}
