@@ -1,0 +1,1198 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+/* ===========================
+            NAV-BAR
+==============================*/
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li:hover{
+    background-color: none;
+    color: white;
+}
+
+.dropdown{display: none;}
+
+ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    margin-left: -0.29cm;
+    margin-top: 0.27cm;
+    background-color: white;
+}
+
+.dropdown ul li a:hover {
+  color: gray;
+}
+
+.dropdown ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown ul li {
+    display: block;
+    color: red;
+}
+
+.dropdown ul li a {
+  color: red;
+}
+
+.dropdown2{display: none;}
+
+.dropdown ul li:hover .dropdown2 {
+  color: gray;
+  display: block;
+  background-color: white;
+  position: absolute;
+  margin-left: 2.7cm;
+  margin-top: -0.8cm;
+}
+
+.logo {
+  padding-top: 20px;
+} 
+.logo a:hover {
+  color: none;
+}
+
+.sidebar {
+  color: red;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  left: 0px;
+  z-index: 999;
+  background-color: #DD183B;
+  backdrop-filter: blur(20px);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidebar li {
+  width: 100%;
+}
+.sidebar a {
+  width: 50%;
+}
+.sidebar a:hover {
+  color: gray;
+  border: none;
+}
+.menu-button{
+  display: none;
+  background-color: #DD183B;
+  margin-right: 0px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 0;
+  height: 30px;
+  width: 27px;
+  justify-items: center;
+  align-items: center;
+}
+.menu-button a:hover {
+  color: none;
+  border: none;
+}
+
+div.headers {
+  background-image: url('images/ATP3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  inset: 0;
+  padding: 10px 20px 140px 0px;
+}
+
+div.header {
+  background-image: url('images/ATTP.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  padding: 10px 20px 0x;
+  inset: 0;
+}
+.main__container {
+  padding-top: 180px;
+  text-align: center;
+}
+
+.headersection h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+.headersection hr {
+  border-radius: 2px;
+  border: none;
+  height: 2px;
+  width: 5%;
+  background-color: #DD183B;
+  margin-left: 47%;
+}
+.headersection2 {
+  text-align: center;
+  padding-top:20px;
+}
+.headersection2 h1 {
+  color: #ffffff;
+  font-size: 65px;
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+
+.headersections2 h1 {
+  text-align: center;
+  color: #fff;
+  padding-top: 150px;
+  font-size: 70px;
+  font-family: sans-serif;
+}
+
+.headersections2 p {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 200px;
+  padding-top: 10px;
+  font-family: serif;
+  color: white;
+}
+
+div.headersections4 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 270px;
+  padding-top: 150px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.continet {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  gap: 90px;
+}
+.bashe {
+  width: 37%;
+  margin-left: 70px;
+  padding-top: 60px;
+}
+.bashe h3 {
+  color: #000;
+  font-family: sans-serif;
+}
+.bashe hr {
+  border: none;
+  height: 4px;
+  width: 16%;
+  background-color: #DD183B;
+  margin-left: 0px;
+  margin-right: 80%;
+  margin-top: 20px;
+}
+.bashe p {
+  padding-top: 20px;
+  color: #555;
+  text-align: left;
+  padding-right: 30px;
+  line-height: 1.7;
+}
+div.img-bashe {
+  width: 50%;
+  border-radius: 8px
+}
+.img-bashe img {
+  margin-top: 60px;
+  display: block;
+  border-radius: 4px;
+}
+.all-team {
+  background-color: lightgray;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.image-box{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 50px;
+}
+.image-box img{
+  width: 41%;
+  height: 750px;
+  border-radius: 5px; 
+  object-fit: cover;
+}
+.image-1{
+  background-color: lightgray;
+  background-position: 70%, 70%;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.image-2 {
+  background-color: lightgray;
+  background-position: 70%, 80%;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+div.wpp-single {
+  width: 100%;
+  color: #555;
+  padding-top: 35px;
+  text-align: justify;
+}
+
+p.wp {
+  width: 100%;
+  text-align: justify;
+  line-height: 1.5;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: dimgray;
+}
+
+div.list {
+  padding-top: 55px;
+  padding-left: 100px;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #555;
+  text-align: left;
+}
+
+.whatweoffer {
+  list-style: none;
+  line-height: 1.7;
+  padding-bottom: 10px;
+}
+
+div.center-container {
+  text-align: center;
+  padding-top: 32px;
+  align-items: center;
+}
+
+div.base {
+  margin-top: 300px;
+  padding-top: 55px;
+  padding-bottom: 40px;
+  background-color: black;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.base h3 {
+  margin: 0 0 20px;
+}
+
+.ast-builder {
+  padding-top: 100px;
+}
+
+.ast-builder h1 {
+  text-align: center;
+  color: red;
+  font-family: sans-serif;
+}
+
+.ast-builder p {
+  text-align: center;
+  color: lightgray;
+  line-height: 1.6;
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+p.Pelement {
+  color: #555;
+  padding-top: 18px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.col-12 h1 {
+  text-align: center;
+  font-family: serif;
+  padding-top: 30px;
+}
+
+.col-12 hr {
+  border: none;
+  height: 3px;
+  background-color: red;
+  margin-left: 46%;
+  margin-right: 46%;
+  margin-top: 20px;
+}
+
+.vp-col {
+  display: flex; 
+  gap: 40px;          
+  flex-wrap: wrap;            
+  justify-content: center;    
+  margin: 20px 0;
+  margin-top: 30px;
+}
+
+.firstsection,
+.secondsection {
+  width: 500px;
+  position: relative;
+  padding: 20px 0 20px 0;
+}
+
+.myImage img {                
+  height: 400px;             
+  object-fit: cover;         
+  display: block;
+  border-radius: 8px;
+  box-shadow: 30px;
+}
+
+.staffe-image {
+  width: 100%;
+  background-color: lightgray;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.staffe-img {
+  width: 100%;
+  background-color: lightgray;
+  padding-bottom: 10px;
+  padding-right: 10px;
+} 
+
+.painters-content {
+  position: relative;          
+  margin-top: 10px; 
+  padding: 0 15px 0 15px;
+  font-family: sans-serif;
+  font-size: 100%;
+  text-align: center;     
+}
+
+.painters-content h3 {
+  margin: 15px 0 10px 0;
+  margin-top: 40px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.painters-content p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: sans-serif;
+  color: #555;
+  width: 100%;
+}
+
+.painters-content a {
+  text-decoration: none;
+  color: white;
+}
+
+.painters-content a:hover {
+  color: none;
+}
+
+.hfeed {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hfeed h1 {
+  color: red;
+  font-family: sans-serif;
+}
+
+.hfeed p {
+  line-height: 1.6;
+  font-family: sans-serif;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+p.paragraph {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #555;
+  font-family: sans-serif;
+}
+
+.picture img {
+  margin-top: 4%;
+  margin-left: 13%;
+}
+
+.wp-singular {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.wp-singular h1 {
+  color: red;
+  padding-top: 20px;
+}
+
+.wp-singular p {
+  padding-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #555;
+  font-family: sans-serif;
+  padding-bottom: 30px;
+  line-height: 1.7;
+}
+
+section.hero {
+  background-image: url('images/painter (5).jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  color: #fff;
+  padding-right: 120px;
+  padding-bottom: 100px;
+}
+div.flex-shrink{
+  max-width: 600px;
+}
+.flex-shrink h1 {
+  line-height: 1.2;
+  padding-top: 150px;
+  padding-right: 70px;
+  color: #fff;
+  text-align: ;
+  font-size: 35px;
+  font-family: sans-serif;
+  padding-left: 50px;
+}
+.flex-shrink hr {
+  border: none;
+  height: 3px;
+  background-color: red;
+  margin-left: 55px;
+  margin-right: 80%;
+  margin-top: 20px;
+}
+.flex-shrink p {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: sans-serif;
+  padding-bottom: 30px;
+  line-height: 1.6;
+  display: flex;
+  color: #fff;
+  text-align: ;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 120px;
+}
+
+.content-hero {
+  padding-left: 60px;
+  width: 40%;
+}
+
+.content-hero h1 {
+  color: #000;
+  font-size: 35px;
+  font-family: sans-serif;
+  padding-left: 45px;
+}
+
+.content-hero hr {
+  border: none;
+  height: 3px;
+  width: 20%;
+  background-color: red;
+  margin-top: 20px;
+  margin-left: 45px;
+  margin-right: 370px;
+}
+
+.content-hero p {
+  line-height: 1.6;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 60px;
+  font-family: sans-serif;
+  padding-bottom: 30px;
+  color: #555;
+  text-align: left;
+}
+
+.content-image img {
+  margin-left: 0px;
+}
+
+div.launch {
+  text-align: center;
+}
+.launch h1 {
+  font-family: sans-serif;
+  padding-top: 70px;
+  color: black;
+}
+.launch hr {
+  border: none;
+  height: 3px;
+  width: 10%;
+  background-color: red;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.wp_news {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  text-align: left;
+}
+
+.wp_news p {
+  color: gray;
+}
+
+.first_wp_news {
+  width: 25%;
+}
+
+.first_wp_news h3 {
+  color: red;
+} 
+
+.sec_wp_news {
+  width: 25%;
+}
+
+.sec_wp_news h3 {
+  color: red;
+}
+
+.third_wp_news {
+  width: 25%;
+}
+
+.third_wp_news h3 {
+  color: red;
+}
+
+p.ast_skills {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  line-height: 1.2;
+}
+
+.wp_news a {
+  text-decoration: none;
+  color: red;
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.company-member {
+  padding-top: 40px;
+}
+/* =========================
+       CONTACT
+========================= */
+div.header1 {
+  background-image: url('images/PT.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  padding: 10px 20px 0x;
+}
+
+div.headersections3 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 270px;
+  padding-top: 150px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+div.fa-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+  padding-top: 120px;
+  margin-left: 30px;
+}
+.fas-head {
+  margin-left: 40px;
+}
+.fas-head h1 {
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 70px;
+}
+input.name {
+  width: 130%;
+}
+input {
+  font-size: 15px;
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  height: 55px;
+  background-color: whitesmoke;
+  border: 1px solid darkgray;
+}
+.contract-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+textarea {
+  font-size: 20px;
+  width: 130%;
+  height: 120px;
+  background-color: whitesmoke;
+  border: 1px solid darkgray;
+  padding: 10px;
+}
+.fa-head {
+  margin-right: 20%;
+}
+.fa-head h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+h3.prof {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 20px;
+  color: #000;
+}
+p.proff {
+  padding-top: 10px;
+  font-family: serif;
+  color: gray;
+  font-size: 15px;
+}
+.proffe {
+  text-decoration: none;
+  color: #DD183B;
+  font-weight: bold;
+  outline: none;
+}
+.proffe a:hover {
+  color: none;
+}
+/*=======================
+    Thank You
+=====================*/
+.vp-head {
+  margin-left: 40px;
+}
+.vp-head h1 {
+  font-family: sans-serif;
+  font-size: 37px;
+  font-weight: bold;
+}
+.vp-head p {
+  padding-top: 30px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: gray;
+  line-height: 1.6;
+}
+
+
+/*===================
+  INNOVATING-SMART
+===================*/  
+
+div.header2 {
+  background-image: url('images/smart2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 20px 0;
+  padding-bottom: 25px;
+}
+.vp-smartrange {
+  margin-top: 100px;
+  text-align: center;
+}
+.vp-smartrange h1 {
+  color: #000;
+  font-size: 30px;
+  font-family: cursive;
+}
+.vp-smartrange p {
+  color: #555;
+  padding-top: 10px;
+  margin-left: 22%;
+  margin-right: 22%;
+  line-height: 1.7;
+  font-family: sans-serif;
+}
+.vp-smartrange hr {
+  border: none;
+  background-color: #DD183B;
+  margin-left: 47%;
+  margin-right: 47%;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.Tools {
+  display: flex; 
+  gap: 40px;          
+  flex-wrap: wrap;            
+  justify-content: center;    
+  margin: 20px 0;
+  margin-top: 100px;
+}
+.vp-SBVA,
+.vp-SLOP,
+.vp-WEAR {
+  width: 330px;
+  position: relative;
+  padding: 20px 0 20px 0;
+}
+.my-img img {                
+  height: 270px;             
+  object-fit: cover;         
+  display: block;
+  border-radius: 8px;
+  box-shadow: 30px;
+}
+.tools-image {
+  width: 100%;
+  background-color: lightgray;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.tools-img {
+  width: 100%;
+  background-color: lightgray;
+  padding-bottom: 10px;
+  padding-right: 10px;
+} 
+.painters {
+  position: relative;          
+  margin-top: 10px; 
+  padding: 0 20px 0 20px;
+  font-family: sans-serif;
+  font-size: 100%;           
+}
+
+.painters h3 {
+  margin: 15px 0 10px 0;
+  margin-top: 40px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.painters p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: sans-serif;
+  color: #555;
+}
+
+.painters a {
+  text-decoration: none;
+  color: black;
+}
+
+.painters a:hover {
+  color: none;
+}
+.mission-projects {
+  background-color: red;
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+}
+.our-mission {
+  color: white;
+  flex: 1;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.our-mission h2 {
+  padding-left: 100px;
+}
+.our-mission hr {
+  border: none;
+  background-color: #fff;
+  margin-left: 17%;
+  margin-right: 73%;
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.our-mission p {
+  padding-left: 100px;
+  line-height: 1.5;
+}
+
+.our-mission ol {
+  list-style: none;
+  line-height: 1.8;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+span {
+  color: black;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.custom-build-project {
+  color: white;
+  flex: 1;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.custom-build-project h2 {
+  padding-right: 50px;
+}
+.custom-build-project hr {
+  border: none;
+  background-color: #fff;
+  margin-right: 90%;
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.custom-build-project p {
+  padding-right: 200px;
+  line-height: 1.5;
+}
+.custom-build-project ol {
+  list-style: none;
+  line-height: 1.8;
+  padding-right: 10px;
+  padding-top: 50px;
+}
+/*===================
+  SERVICE-OFFERING
+===================*/
+div.header4 {
+  background-image: url('images/PT.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 20px 0;
+  padding-bottom: 25px;
+}
+div.headersections5 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 270px;
+  padding-top: 150px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.vp-rangeservices {
+  text-align: center;
+  margin-top: 90px;
+}
+.vp-rangeservices h1 {
+  font-family: cursive;
+}
+.vp-rangeservices hr {
+  border: none;
+  background-color: red;
+  margin-left: 47%;
+  margin-right: 47%;
+  height: 2.5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.vp-rangeservices p {
+  font-family: sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.9;
+}
+.vp_row {
+  display: flex;      
+  gap: 130px;          
+  flex-wrap: wrap;            
+  justify-content: center;    
+  margin: 20px 0;
+  margin-top: 70px;
+}
+.first_img,
+.second_img {
+  width: 450px;
+  position: relative;
+  padding: 20px 0 20px 0;
+}
+.vp_myImage img {                
+  height: 350px;             
+  object-fit: cover;         
+  display: block;
+  border-radius: 8px;
+  box-shadow: 30px;
+}
+.vp_myImg img {                
+  height: 400px;             
+  object-fit: cover;         
+  display: block;
+  border-radius: 8px;
+  box-shadow: 30px;
+}
+.staff_image {
+  width: 110%;
+  background-color: lightgray;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.staff_img {
+  width: 110%;
+  background-color: lightgray;
+  padding-bottom: 10px;
+  padding-right: 10px;
+} 
+.vp_painters {
+  position: relative;          
+  margin-top: 10px; 
+  padding: 0 20px 0 0px;
+  font-family: sans-serif;
+  font-size: 100%; 
+  text-align: center;          
+}
+.vp_painters h3 {
+  margin: 15px 0 10px 0;
+  margin-top: 40px;
+  text-align: center;
+}
+.vp_painters p {
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: sans-serif;
+  color: #555;
+}
+/* =========================
+          END
+========================= */
+
+/*===================
+    VP-READ
+===================*/
+
+.header-read {
+  background-color: lightgray;padding-bottom: 50px;
+}
+.vp-read {
+  text-align: center;
+  margin-top: 130px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.vp-read h1 {
+  font-size: 80px;
+  color: red;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+.vp-read p {
+  font-size: 25px;
+  color: gray;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+/*===================
+    SEARCH BAR
+===================*/
+.search-box{
+    display: flex;
+    gap: 0px;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.search-box input{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    border-right: none;
+    font-size: 16px;
+    height: 40px;
+}
+
+.search-box button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: white;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.search-box input:hover{
+    background-color: none;
+    border: none;
+}
+
+.search-box button:hover{
+    background-color: none;
+    border: none;
+}
+
+/* =========================
+   FOOTER CONTAINER
+========================= */
+.container {
+  background-color: red;
+  color: white;
+  gap: 10px;
+  margin-top: 10%;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  flex-wrap: wrap;
+}
+
+.vp-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.wp-logo {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.cont h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-right: 170px;
+}
+
+.cont p {
+  margin-left: 40px;
+  padding-right: 150px;
+  width: 100%;
+  font-family: sans-serif;                                                  
+  color: darkgray;                                                        
+  line-height: 1.7;
+}
+.link-1 a {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  color: darkgray;
+  transition: 0.3s ease;
+  width: 100%;
+  margin bottom: 10px;
+  display: block;
+  line-height: 2.0;
+  margin-right: 150px;
+}
+.link-1 a:hover {
+  color: none;
+  border: none;
+}
+.link-2 a {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  color: darkgray;
+  margin bottom: 10px;
+  display: block;
+  line-height: 2.0;
+}
+.link-2 a:hover {
+  color: none;
+  border: none;
+  border-bottom: 3px  solid gray;
+  width: 100px;
+}
+
+footer {
+      background-color: black;
+      text-align: center;
+      padding-top: 10px;
+    }
+.footer p {
+      color: #fff;
+      padding-bottom: 40px;
+    }
