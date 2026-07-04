@@ -1,0 +1,166 @@
+.phone-number-btn {
+      background-color: red;
+      border-radius: 25px;
+      color: white;
+      padding: 0px;
+      cursor: pointer;
+      width: 155px;
+      border: 2px ;
+      height: 50px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+.phone-number-btn :hover {
+      background-color: none;
+      border: none;
+    }
+.centre-container {
+      background-color: red;
+      border-radius: 25px;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+      width: 155px;
+      border: 2px ;
+      height: 50px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+.centre-container :hover {
+      background-color: #555;
+    }
+.figcaption-btn {
+  background-color: red;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 2px;
+  color: white;
+  width: 155px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-left: 0px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.figcaption-btn a {
+  text-decoration: none;
+  color: #fff;
+  z-index: 2;
+  position: relative;
+}
+
+.figcaption-btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: blue;
+  transition: all 0.35s;
+  border-radius: 25px;
+}
+
+.figcaption-btn:hover {
+  background-color: #555;
+}
+
+.figcaption-btn:hover:after {
+  width: 100%;
+}
+
+
+.contact-us {
+  color: white;
+  width: 155px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px;
+  border-radius: 25px;
+  background-color: red;
+  cursor: pointer;
+}
+
+
+.contact-us :hover{
+  background-color: #555;
+}
+
+
+.learn-morebutton {
+  background-color: red;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  width: 155px;
+  height: 50px;
+  margin-top: 10px;
+  padding: 0 15px 0 20px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.learn-morebutton :hover {
+ background-color: #555;
+}
+.content-heros {
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 155px;
+  height: 50px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  background: red;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.content-heros :hero {
+  background-color:    555;
+}
+.send-message {
+      background-color: #DD183B;
+      border-radius: 25px;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: sans-serif;
+      cursor: pointer;
+      width: 170px;
+      border: 2px ;
+      height: 50px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+.send-message:hover {
+      background-color: #555;
+    }
+.figcaption-bt {
+  background-color: red;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 2px;
+  color: white;
+  width: 155px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.figcaption-bt :hover {
+  background-color: #555;
+}
