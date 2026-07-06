@@ -21,7 +21,6 @@
 div.headers {
   background-image: url('images/ATP3.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   inset: 0;
   height: 70vh;
   }
@@ -1071,7 +1070,6 @@ span {
 div.headers {
   background-image: url('images/ATP3.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   inset: 0;
   height: 45vh;
   }
@@ -2136,7 +2134,6 @@ span {
 div.headers {
   background-image: url('images/ATP3.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   inset: 0;
   height: 40vh;
   }
@@ -3201,7 +3198,6 @@ span {
 div.headers {
   background-image: url('images/ATP3.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   inset: 0;
   height: 45vh;
   }
@@ -4266,7 +4262,6 @@ span {
 div.headers {
   background-image: url('images/ATP3.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   inset: 0;
   height: 45vh;
   }
